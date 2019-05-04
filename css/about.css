@@ -69,6 +69,8 @@ header nav {
 header a {
     text-decoration: none;
     color: black;
+    margin: 0 auto;
+    font-size: 14px;
 }
 
 html, body {
@@ -92,11 +94,61 @@ p {
 }
 
 .top-section {
-    padding: 25px 0px;
+    padding: 25px 20px;
     border-bottom: 1px dashed black;
 }
 
+.top-section h1 {
+    font-size: 20px;
+}
 
+.middle-content {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.about-boxes {
+    width: 45%;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-boxes h2 {
+    padding-top: 10px;
+    font-size: 19px;
+}
+
+.about-boxes img {
+    width: 100%;
+    height: auto;
+}
+
+.about-boxes button {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    border: 2px solid black;
+    padding: 7px 25px;
+    margin-top: 15px;
+    background: white;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.about-boxes button:hover {
+    transform: scale(1.1) translateX(5px);
+    background-color: rgb(122, 158, 226);
+    color: white;
+}
+
+.bottom-content {
+    padding: 25px 0px 40px 0px;
+    margin: 0px 20px;
+}
 
 
 
