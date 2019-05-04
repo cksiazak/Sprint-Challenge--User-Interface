@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* end of reset */
+
 * {
     box-sizing: border-box;
 }
@@ -71,6 +73,13 @@ header a {
     color: black;
     margin: 0 auto;
     font-size: 14px;
+
+    transition: .2s;
+}
+
+header a:hover {
+    color: maroon;
+    transform: scale(1.3);
 }
 
 html, body {
@@ -206,4 +215,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+
+    transition: .2s;
+}
+
+footer nav a:hover {
+    color: rgb(190, 0, 0);
 }
